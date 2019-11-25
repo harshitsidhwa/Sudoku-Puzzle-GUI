@@ -6,8 +6,7 @@ Made By Harshit Sidhwa
 
 
 
-from Tkinter import *
-import tkMessageBox
+from tkinter import *
 entries = []
 
 def initialize(top,arr):
@@ -104,7 +103,7 @@ def play_Game(top,maze):
     else:
         #tkMessageBox.showinfo("ERROR", "No solution found")
         #clean_Mess()
-        print "No solution found"
+        print ("No solution found")
     
 def createEntry(top):
     p,q=41.4,41.4
